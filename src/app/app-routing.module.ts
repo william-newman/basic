@@ -8,7 +8,7 @@ const routes: Routes = [
   // Landing component is used as the home component for non-authenticated users
   { path: '', component: LandingComponent, pathMatch: 'full' },
   // and the Home component is used as the hub once logged in
-  { path: 'home', component: HomeComponent },
+  { path: 'home', component: HomeComponent }, // Will have children
 ];
 
 @NgModule({
